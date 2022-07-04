@@ -1,0 +1,76 @@
+import {StyleSheet} from 'react-native';
+
+const styles = StyleSheet.create({
+  container: {
+    backgroundColor: '#fff',
+    // alignContent: 'center',
+    flex: 1,
+  },
+  profileView: {
+    flexDirection: 'row',
+    marginTop: 10,
+    height: 20,
+    marginLeft: 10,
+  },
+  text: {
+    fontSize: 14,
+    fontStyle: 'rubik',
+    fontFamily: 'rubik',
+    fontWeight: '600',
+    color: 'black',
+  },
+  textTitleCard: {
+    fontFamily: 'Poppins',
+    fontStyle: 'normal',
+    fontWeight: '600',
+    fontSize: 14,
+    lineHeight: 21,
+    color: 'rgba(45, 41, 38, 1)',
+  },
+  subTitle: {
+    fontSize: 11,
+    fontFamily: 'poppins',
+    fontWeight: '500',
+    lineHeight: 16.5,
+    marginLeft: '15%',
+    color: 'rgba(45, 41, 38, 1)',
+  },
+  greenContainer: {
+    flexDirection: 'row',
+    width: '100%',
+    height: '5%',
+    padding: 5,
+    backgroundColor: 'rgba(220, 255, 234, 1)',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingHorizontal: 15,
+    marginVertical: '3%',
+  },
+  idContainer: {
+    marginLeft: '1%',
+    width: '97%',
+    height: 70,
+    padding: 5,
+    backgroundColor: 'rgba(255, 255, 255, 1)',
+  },
+  greenButton: {
+    fontSize: 10,
+    fontWeight: '500',
+    lineHeight: 16.5,
+    color: 'green',
+    marginLeft: '70%',
+  },
+  smallGrayContainer: {
+    justifyContent: 'center',
+    marginHorizontal: '5%',
+    marginVertical: '1%',
+    width: '90%',
+    height: '8%',
+    padding: '4%',
+    backgroundColor: '#F1F1F1',
+    borderRadius: 5,
+    borderColor: 'silver',
+    borderWidth: 0.5,
+  },
+});
+export default styles;
